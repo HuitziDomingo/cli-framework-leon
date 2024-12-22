@@ -1,0 +1,17 @@
+{
+  "name": "leon-v1",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "mi-cli": "index.ts"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
