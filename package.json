@@ -2,8 +2,10 @@
   "name": "leon-v1",
   "module": "index.ts",
   "type": "module",
+  "version": "1.0.0",
+  "description": "Mi CLI para crear archivos y carpetas con el framework de express",
   "bin": {
-    "mi-cli": "index.ts"
+    "leo": "index.ts"
   },
   "scripts": {
     "start": "bun run index.ts"
@@ -13,5 +15,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
